@@ -5,6 +5,7 @@ import Counter from './Counter/Counter';
 import Search from './Ref/formRef';
 import SearchLocal from './RefLocalState/RefToStateLocal';
 import Headline from './Header/header';
+import LiftState from './LiftingState/liftingState';
 
 ReactDOM.render(
   <div>
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Counter />
     <Search />
     <SearchLocal />
+    <LiftState />
   </div>
   , document.getElementById('root'));
 
