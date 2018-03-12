@@ -4,12 +4,14 @@ import './index.css';
 import Counter from './Counter/Counter';
 import Search from './Ref/formRef';
 import SearchLocal from './RefLocalState/RefToStateLocal';
+import Headline from './Header/header';
 
 ReactDOM.render(
   <div>
-  <Counter />
-  <Search />
-  <SearchLocal />
+    <Headline />
+    <Counter />
+    <Search />
+    <SearchLocal />
   </div>
   , document.getElementById('root'));
 
